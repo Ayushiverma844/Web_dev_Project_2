@@ -93,3 +93,23 @@ html,body{
     background-size: cover;
     background-position: 0% 50%;
 }  
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    .elem a {
+      font-weight: 400;
+      font-size: 20px;
+      padding: 2px;
+    }
+  
+    #center h1 {
+      font-size: 6vw;
+      font-weight: 500;
+      line-height: 7vw;
+    }
+    #center-in p {
+      font-size: 2.2vw;
+      font-weight: 400;
+      line-height: 4vw;
+    }
+  }
